@@ -30,7 +30,7 @@ The `val/` directory contains:
 ## Content of Text Files
 
 - `wnids.txt`: Contains the WordNet IDs (wnids) of the 200 classes in the dataset, one per line.
-- `words.txt`: Contains the class labels (descriptions) corresponding to the WordNet IDs. Each line is in the format `{wnid}\t{description}`.
+- `words.txt`: Contains the class labels (descriptions) corresponding to the WordNet IDs. The file contains mappings for 82,115 unique classes, not all of which are represented in the Tiny ImageNet dataset. Each line is in the format `{wnid}\t{description}`. 
 - `{wnid}_boxes.txt`: These files in the `train/` directories contain the bounding boxes for the objects in the training images. Each line is in the format `{filename}\t{x}\t{y}\t{h}\t{w}`.
 - `val_annotations.txt`: This file in the `val/` directory contains the class labels for the validation images. Each line is in the format `{filename}\t{wnid}\t{x}\t{y}\t{h}\t{w}`.
 
