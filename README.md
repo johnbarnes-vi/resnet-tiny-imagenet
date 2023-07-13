@@ -27,7 +27,7 @@ If you want to run the code in the `ViT-tinyimagenet200/` directory, you will ne
 
 Once you've done this, the code in the `ViT-tinyimagenet200/` directory will be able to access the dataset and you will be able to run the notebooks in this directory.
 
-For more details on the structure and content of the `tiny-imagenet-200/` directory, refer to `ViT-tinyimagenet200/dir_structure.txt`.
+For more details on the structure and content of the `tiny-imagenet-200/` directory, refer to [`dir_structure.txt`](ViT-tinyimagenet200/dir_structure.txt).
 
 ### ViT-Pulfer
 
