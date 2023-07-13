@@ -1,4 +1,4 @@
 *.ipynb_checkpoints
 *.DS_Store
 *.zip
-jupyter-playground/tiny-imagenet-200/
+ViT-tinyimagenet200/tiny-imagenet-200/
