@@ -1,2 +1,4 @@
 *.ipynb_checkpoints
 *.DS_Store
+*.zip
+jupyter-playground/tiny-imagenet-200/
