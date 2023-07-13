@@ -29,6 +29,10 @@ Once you've done this, the code in the `ViT-tinyimagenet200/` directory will be 
 
 For more details on the structure and content of the `tiny-imagenet-200/` directory, refer to our [detailed guide](Link_to_detailed_guide).
 
+### ViT-Pulfer
+
+The `ViT-Pulfer/` directory contains an implementation of ViT on the MNIST dataset. This implementation was originally created by [Brian Pulfer](https://github.com/BrianPulfer) and has been included here with minor modifications. It served as a useful starting point for understanding how ViT works.
+
 ## Contributing
 
 Contributions are welcome! Please read the contribution guidelines first.
