@@ -7,7 +7,7 @@ This repository contains various implementations of Vision Transformer (ViT), a 
 The repository is organized into several subdirectories, each of which contains a different implementation of ViT. These subdirectories include:
 
 - `ViT-tinyimagenet200/`
-- `...` (Add other directories as needed)
+- `ViT-Pulfer/`
 
 ### ViT-tinyimagenet200
 
