@@ -19,7 +19,7 @@ Please note that the Tiny ImageNet dataset is **not** included in this repositor
 
 If you want to run the code in the `ViT-tinyimagenet200/` directory, you will need to manually download the Tiny ImageNet dataset and place it in this directory. Here are the steps:
 
-1. Download the `tiny-imagenet-200.zip` file from the [Tiny ImageNet website](http://cs231n.stanford.edu/tiny-imagenet-200.zip).
+1. Download the `tiny-imagenet-200.zip` file from the ImageNet website once you have permission.
 
 2. Move the `tiny-imagenet-200.zip` file into the `ViT-tinyimagenet200/` directory.
 
@@ -27,7 +27,7 @@ If you want to run the code in the `ViT-tinyimagenet200/` directory, you will ne
 
 Once you've done this, the code in the `ViT-tinyimagenet200/` directory will be able to access the dataset and you will be able to run the notebooks in this directory.
 
-For more details on the structure and content of the `tiny-imagenet-200/` directory, refer to our [detailed guide](Link_to_detailed_guide).
+For more details on the structure and content of the `tiny-imagenet-200/` directory, refer to 'ViT-tinyimagenet200/dir_structure.txt'.
 
 ### ViT-Pulfer
 
