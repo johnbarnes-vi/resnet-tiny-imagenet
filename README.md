@@ -11,7 +11,7 @@ The repository is organized into several subdirectories, each of which contains 
 
 ### ViT-tinyimagenet200
 
-The `ViT-tinyimagenet200/` directory contains an implementation of ViT on the Tiny ImageNet dataset (with 200 classes). 
+The `ViT-tinyimagenet200/` directory contains an implementation of a CNN (as a baseline) and of a ViT, both on the Tiny ImageNet dataset (with 200 classes). 
 
 Please note that the Tiny ImageNet dataset is **not** included in this repository due to its large size. 
 
