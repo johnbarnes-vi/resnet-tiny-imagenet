@@ -3,3 +3,4 @@
 *.zip
 *.vs
 ViT-tinyimagenet200/tiny-imagenet-200/
+ViT-tinyimagenet200/__pycache__/
