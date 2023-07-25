@@ -13,7 +13,9 @@ class SimpleCNN(nn.Module):
         self.pool = nn.MaxPool2d(2, 2)  # 2x2 max pooling
         self.conv2 = nn.Conv2d(6, 16, 5)  # Input channels = 6, output channels = 16, kernel size = 5
         self.fc1 = nn.Linear(16 * 13 * 13, 120)  # Fully connected layer
+        self.dropout1 = nn.Dropout(0.25) # Dropout layer for overfitting
         self.fc2 = nn.Linear(120, 84)
+        self.dropout2 = nn.Dropout(0.25) # Dropout layer for overfitting
         self.fc3 = nn.Linear(84, 200)  # 200 output classes
 
     def forward(self, x):
@@ -21,6 +23,8 @@ class SimpleCNN(nn.Module):
         x = self.pool(F.relu(self.conv2(x)))  # Convolution -> ReLU -> Pooling
         x = x.view(-1, 16 * 13 * 13)  # Flatten the tensor
         x = F.relu(self.fc1(x))  # Fully connected -> ReLU
+        x = self.dropout1(x)
         x = F.relu(self.fc2(x))  # Fully connected -> ReLU
+        x = self.dropout2(x)
         x = self.fc3(x)  # Fully connected
         return x
