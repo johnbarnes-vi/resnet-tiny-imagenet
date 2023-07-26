@@ -1,14 +1,6 @@
-# The provided code is a Python script, so we should not execute it directly in this Jupyter notebook environment.
-# Instead, we'll extract the necessary classes and functions, and adapt them to create a ResNet-34 model.
-
-# We begin by importing the necessary modules.
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
-# The given file includes a BasicBlock class, which we'll also need for the ResNet-34 model.
-# The BasicBlock class is already suitable for use in a ResNet-34, so we can reuse it without modification.
 
 class BasicBlock(nn.Module):
     expansion = 1
