@@ -2,6 +2,6 @@
 *.DS_Store
 *.zip
 *.vs
-ViT-tinyimagenet200/tiny-imagenet-200/
-ViT-tinyimagenet200/__pycache__/
-ViT-tinyimagenet200/model_params/
+tiny-imagenet-200/
+__pycache__/
+model_params/
