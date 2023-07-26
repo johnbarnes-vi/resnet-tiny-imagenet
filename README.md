@@ -61,7 +61,7 @@ Before training the models, the validation images in the Tiny ImageNet dataset n
 
 ## Contributing
 
-Contributions are welcome! Please read the contribution guidelines first.
+Contributions are welcome!
 
 ## License
 
